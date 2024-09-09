@@ -1,0 +1,83 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #D45A8F; /* Pink color */
+    margin: 20px 0;
+}
+
+form {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+fieldset {
+    border: 1px solid #D45A8F; /* Pink border */
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #D45A8F; /* Pink color */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6A1B9A; /* Purple color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #D1C4E9; /* Light purple border */
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #D45A8F; /* Pink color */
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #C2185B; /* Darker pink on hover */
+}
+
+#resumeOutput {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+img.profile-picture {
+    border-radius: 50%;
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    object-fit: cover;
+}
